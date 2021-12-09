@@ -23,15 +23,52 @@
             Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
             høre fra dig.
           </p>
+
+          <form name="kontakt" netlify>
+            <!-- Formular-indhold -->
+            <div class="form-felt">
+              <label for="navn">Fulde Navn</label>
+  
+              <input 
+                id="full-name"
+                name="fname"
+                type="text"
+                placeholder=" fx Lars Larsen"/>
+            </div>
+  
+            <div class="form-felt">
+              <label for="e-mail">E-mail</label>
+  
+              <input 
+                id="e-mail"
+                name="email"
+                type="email"
+                placeholder="fx maria@gmail.com"/>
+            </div>
+
+            <div class="form-felt">
+              <label for="telefon">Telefonnummer</label>
+  
+              <input 
+                id="telefon"
+                name="telefon"
+                type="tel"
+                placeholder="fx +45 12 34 56 78"/>
+            </div>
+
+            <div class="form-felt">
+              <label>
+                Spørg os
+                <textarea name="Spørg" id="Ask" rows="5"></textarea>
+              </label>
+  
+        
+            </div>
+            <button>Indsend</button>
+          </form>
         </header>
 
-        <form>
-          <!-- Formular-indhold -->
-          <div class="form-felt">
-            <label for="navn">Navn</label>
-            <input />
-          </div>
-        </form>
+
       </section>
     </main>
   </body>
